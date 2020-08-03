@@ -1,0 +1,126 @@
+/* Reset the css first , we can change it later when needed */
+* {
+    box-sizing: border-box;
+}
+
+header {
+    border: 2px solid white;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url('img/bg.jpg');
+    background-size: 171%;
+    color: white;
+    font-family: 'Baloo Da 2', cursive;
+    height: 1000px;
+}
+
+
+.left img {
+    width: 116px;
+    padding: 0px 20px;
+    filter: invert(100%);
+}
+
+.left div {
+    text-align: center;
+    position: absolute;
+    top: 62px;
+    left: 17px;
+    font-size: 14px;
+}
+.left {
+    border: 2px solid red;
+    display: inline-block;
+    position: absolute;
+    left: 34px;
+    top: 13px;
+}
+
+.mid {
+    border: 2px solid yellow;
+    width: 585px;
+    margin: 20px auto;
+    padding: 20px 20px;
+}
+
+.right {
+    border: 2px solid green;
+    display: inline-block;
+    position: absolute;
+    right: 20px;
+    top: 37px;
+}
+
+.navbar {
+    display: inline-block;
+    margin: auto;
+}
+
+.navbar li {
+    display: inline-block;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 10px;
+    font-size: 20px;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    color: grey;
+    text-decoration: underline;
+}
+
+.btn {
+    font-family: 'Baloo Da 2', cursive;
+    margin: 0px 9px;
+    color: white;
+    background-color: grey;
+    padding: 4px 14px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #5f5e5e;
+}
+
+.container {
+    border: 2px solid white;
+    margin: 82px 35px;
+    padding: 6px 19px;
+    width: 33%;
+    border-radius: 75px;
+    text-align: center;
+}
+
+.form-group input {
+    font-family: 'Baloo Da 2', cursive;
+    border-radius: 8px;
+    text-align: center;
+    display: block;
+    width: 67%;
+    border: 2px solid black;
+    margin: 5px auto;
+    padding: 9px;
+
+}
+
+.form-group {
+    text-align: center;
+}
+
+.container button {
+    margin: auto;
+    padding: 2px;
+    width: 67%;
+    font-size: 22px;
+
+}
